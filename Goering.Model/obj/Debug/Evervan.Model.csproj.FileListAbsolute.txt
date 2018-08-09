@@ -1,0 +1,9 @@
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\Evervan.Model.dll
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\Evervan.Model.pdb
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\EntityFramework.dll
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\Evervan.Common.dll
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\Evervan.Common.pdb
+D:\work\CSharp\OFFICIAL\Evervan.Model\bin\Debug\EntityFramework.xml
+D:\work\CSharp\OFFICIAL\Evervan.Model\obj\Debug\Evervan.Model.csprojResolveAssemblyReference.cache
+D:\work\CSharp\OFFICIAL\Evervan.Model\obj\Debug\Evervan.Model.dll
+D:\work\CSharp\OFFICIAL\Evervan.Model\obj\Debug\Evervan.Model.pdb

@@ -1,0 +1,5 @@
+D:\work\Sample\OFFICIAL\Evervan.Documents\bin\Debug\Goering.Documents.dll
+D:\work\Sample\OFFICIAL\Evervan.Documents\bin\Debug\Goering.Documents.pdb
+D:\work\Sample\OFFICIAL\Evervan.Documents\obj\Debug\Goering.Documents.csprojResolveAssemblyReference.cache
+D:\work\Sample\OFFICIAL\Evervan.Documents\obj\Debug\Goering.Documents.dll
+D:\work\Sample\OFFICIAL\Evervan.Documents\obj\Debug\Goering.Documents.pdb

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.Documents", "Goering.Documents\Goering.Documents.csproj", "{1411D285-A7D5-41DA-B89F-68DBD8F3DF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.Common", "Goering.Common\Goering.Common.csproj", "{0F882211-0F86-43BE-8DA7-551FC76D6A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.Model", "Goering.Model\Goering.Model.csproj", "{8C173CE2-CB92-410E-9646-B898C6853D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.Utility", "Goering.Utility\Goering.Utility.csproj", "{5214CB27-6707-48C3-A37E-AF85CC13ABE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.EFDAL", "Goering.EFDAL\Goering.EFDAL.csproj", "{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.BLL", "Goering.BLL\Goering.BLL.csproj", "{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goering.Web", "Goering.Web\Goering.Web.csproj", "{10CC218E-02DC-4D82-8375-D4CAD7509211}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1411D285-A7D5-41DA-B89F-68DBD8F3DF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1411D285-A7D5-41DA-B89F-68DBD8F3DF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1411D285-A7D5-41DA-B89F-68DBD8F3DF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1411D285-A7D5-41DA-B89F-68DBD8F3DF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F882211-0F86-43BE-8DA7-551FC76D6A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F882211-0F86-43BE-8DA7-551FC76D6A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F882211-0F86-43BE-8DA7-551FC76D6A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F882211-0F86-43BE-8DA7-551FC76D6A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C173CE2-CB92-410E-9646-B898C6853D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C173CE2-CB92-410E-9646-B898C6853D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C173CE2-CB92-410E-9646-B898C6853D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C173CE2-CB92-410E-9646-B898C6853D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5214CB27-6707-48C3-A37E-AF85CC13ABE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5214CB27-6707-48C3-A37E-AF85CC13ABE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5214CB27-6707-48C3-A37E-AF85CC13ABE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5214CB27-6707-48C3-A37E-AF85CC13ABE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CC218E-02DC-4D82-8375-D4CAD7509211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CC218E-02DC-4D82-8375-D4CAD7509211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CC218E-02DC-4D82-8375-D4CAD7509211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CC218E-02DC-4D82-8375-D4CAD7509211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

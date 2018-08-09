@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BCEDB8A-91D5-4B50-A2B7-37DFA342A1B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Goering.BLL</RootNamespace>
+    <AssemblyName>Goering.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\BaseBLL.cs" />
+    <Compile Include="Common\BaseSQLBLL.cs" />
+    <Compile Include="EVN\TNAPPLYFORBLL.cs" />
+    <Compile Include="EVN\TNEDUCATIONALREQUIREMENTSBLL.cs" />
+    <Compile Include="EVN\TNFLASHSCREENBLL.cs" />
+    <Compile Include="EVN\TNJOBBLL.cs" />
+    <Compile Include="EVN\TNMONTHLYBLL.cs" />
+    <Compile Include="EVN\TNNEWSBLL.cs" />
+    <Compile Include="EVN\TNNEWSVIDEOBLL.cs" />
+    <Compile Include="EVN\TNPROJECTBLL.cs" />
+    <Compile Include="EVN\TNSUBPROJECTBLL.cs" />
+    <Compile Include="EVN\TNWORKAREABLL.cs" />
+    <Compile Include="EVN\TRMENUUSERBLL.cs" />
+    <Compile Include="EVN\TSMENUBLL.cs" />
+    <Compile Include="EVN\TSUSERBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Goering.Common\Goering.Common.csproj">
+      <Project>{0F882211-0F86-43BE-8DA7-551FC76D6A55}</Project>
+      <Name>Goering.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Goering.EFDAL\Goering.EFDAL.csproj">
+      <Project>{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}</Project>
+      <Name>Goering.EFDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Goering.Model\Goering.Model.csproj">
+      <Project>{8C173CE2-CB92-410E-9646-B898C6853D54}</Project>
+      <Name>Goering.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Goering.Utility\Goering.Utility.csproj">
+      <Project>{5214CB27-6707-48C3-A37E-AF85CC13ABE3}</Project>
+      <Name>Goering.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

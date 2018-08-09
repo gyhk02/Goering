@@ -1,0 +1,5 @@
+D:\work\CSharp\OFFICIAL\Evervan.Common\bin\Debug\Evervan.Common.dll
+D:\work\CSharp\OFFICIAL\Evervan.Common\bin\Debug\Evervan.Common.pdb
+D:\work\CSharp\OFFICIAL\Evervan.Common\obj\Debug\Evervan.Common.csprojResolveAssemblyReference.cache
+D:\work\CSharp\OFFICIAL\Evervan.Common\obj\Debug\Evervan.Common.dll
+D:\work\CSharp\OFFICIAL\Evervan.Common\obj\Debug\Evervan.Common.pdb

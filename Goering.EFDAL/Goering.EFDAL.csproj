@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0D2DFB2-AD44-4468-BE67-80075F21FBEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Goering.EFDAL</RootNamespace>
+    <AssemblyName>Goering.EFDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended, Version=6.0.0.0, Culture=neutral, PublicKeyToken=05b7e29bdd433584, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.133\lib\net40\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DalDBFactory.cs" />
+    <Compile Include="Common\ISQLHelper.cs" />
+    <Compile Include="Common\BaseDAL.cs" />
+    <Compile Include="Common\IBaseDAL.cs" />
+    <Compile Include="Common\SQLHelper.cs" />
+    <Compile Include="Dals\EVN\TNAPPLYFORDAL.cs" />
+    <Compile Include="Dals\EVN\TNEDUCATIONALREQUIREMENTSDAL.cs" />
+    <Compile Include="Dals\EVN\TNFLASHSCREENDAL.cs" />
+    <Compile Include="Dals\EVN\TNJOBDAL.cs" />
+    <Compile Include="Dals\EVN\TNMONTHLYDAL.cs" />
+    <Compile Include="Dals\EVN\TNNEWSDAL.cs" />
+    <Compile Include="Dals\EVN\TNNEWSVIDEODAL.cs" />
+    <Compile Include="Dals\EVN\TNPROJECTDAL.cs" />
+    <Compile Include="Dals\EVN\TNSUBPROJECTDAL.cs" />
+    <Compile Include="Dals\EVN\TNWORKAREADAL.cs" />
+    <Compile Include="Dals\EVN\TRMENUUSERDAL.cs" />
+    <Compile Include="Dals\EVN\TSMENUDAL.cs" />
+    <Compile Include="Dals\EVN\TSUSERDAL.cs" />
+    <Compile Include="DB\EVN\DBEntities.cs" />
+    <Compile Include="DB\EVN\DBEntities.generated.cs">
+      <DependentUpon>DBEntities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\EVN\SQLHelperDAL.cs" />
+    <Compile Include="Mapping\EVN\TNAPPLYFORMap.cs" />
+    <Compile Include="Mapping\EVN\TNAPPLYFORMap.generated.cs">
+      <DependentUpon>TNAPPLYFORMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNEDUCATIONALREQUIREMENTSMap.cs" />
+    <Compile Include="Mapping\EVN\TNEDUCATIONALREQUIREMENTSMap.generated.cs">
+      <DependentUpon>TNEDUCATIONALREQUIREMENTSMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNFLASHSCREENMap.cs" />
+    <Compile Include="Mapping\EVN\TNFLASHSCREENMap.generated.cs">
+      <DependentUpon>TNFLASHSCREENMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNJOBMap.cs" />
+    <Compile Include="Mapping\EVN\TNJOBMap.generated.cs">
+      <DependentUpon>TNJOBMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNMONTHLYMap.cs" />
+    <Compile Include="Mapping\EVN\TNMONTHLYMap.generated.cs">
+      <DependentUpon>TNMONTHLYMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNNEWSMap.cs" />
+    <Compile Include="Mapping\EVN\TNNEWSMap.generated.cs">
+      <DependentUpon>TNNEWSMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNNEWSVIDEOMap.cs" />
+    <Compile Include="Mapping\EVN\TNNEWSVIDEOMap.generated.cs">
+      <DependentUpon>TNNEWSVIDEOMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNPROJECTMap.cs" />
+    <Compile Include="Mapping\EVN\TNPROJECTMap.generated.cs">
+      <DependentUpon>TNPROJECTMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNSUBPROJECTMap.cs" />
+    <Compile Include="Mapping\EVN\TNSUBPROJECTMap.generated.cs">
+      <DependentUpon>TNSUBPROJECTMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TNWORKAREAMap.cs" />
+    <Compile Include="Mapping\EVN\TNWORKAREAMap.generated.cs">
+      <DependentUpon>TNWORKAREAMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TRMENUUSERMap.cs" />
+    <Compile Include="Mapping\EVN\TRMENUUSERMap.generated.cs">
+      <DependentUpon>TRMENUUSERMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TSMENUMap.cs" />
+    <Compile Include="Mapping\EVN\TSMENUMap.generated.cs">
+      <DependentUpon>TSMENUMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapping\EVN\TSUSERMap.cs" />
+    <Compile Include="Mapping\EVN\TSUSERMap.generated.cs">
+      <DependentUpon>TSUSERMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Goering.Model\Goering.Model.csproj">
+      <Project>{8C173CE2-CB92-410E-9646-B898C6853D54}</Project>
+      <Name>Goering.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Goering.Utility\Goering.Utility.csproj">
+      <Project>{5214CB27-6707-48C3-A37E-AF85CC13ABE3}</Project>
+      <Name>Goering.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+D:\work\Sample\OFFICIAL\Evervan.Common\bin\Debug\Goering.Common.dll
+D:\work\Sample\OFFICIAL\Evervan.Common\bin\Debug\Goering.Common.pdb
+D:\work\Sample\OFFICIAL\Evervan.Common\obj\Debug\Goering.Common.csprojResolveAssemblyReference.cache
+D:\work\Sample\OFFICIAL\Evervan.Common\obj\Debug\Goering.Common.dll
+D:\work\Sample\OFFICIAL\Evervan.Common\obj\Debug\Goering.Common.pdb
+D:\work\Sample\Goering\Goering.Common\bin\Debug\Goering.Common.dll
+D:\work\Sample\Goering\Goering.Common\bin\Debug\Goering.Common.pdb
+D:\work\Sample\Goering\Goering.Common\obj\Debug\Goering.Common.csprojResolveAssemblyReference.cache
+D:\work\Sample\Goering\Goering.Common\obj\Debug\Goering.Common.dll
+D:\work\Sample\Goering\Goering.Common\obj\Debug\Goering.Common.pdb

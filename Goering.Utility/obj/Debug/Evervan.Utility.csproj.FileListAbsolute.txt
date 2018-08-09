@@ -1,0 +1,15 @@
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\Evervan.Utility.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\Evervan.Utility.pdb
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\EntityFramework.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\Evervan.Model.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\log4net.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\NPOI.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\NPOI.OOXML.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\NPOI.OpenXml4Net.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\Evervan.Model.pdb
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\EntityFramework.xml
+D:\work\CSharp\OFFICIAL\Evervan.Utility\bin\Debug\log4net.xml
+D:\work\CSharp\OFFICIAL\Evervan.Utility\obj\Debug\Evervan.Utility.csprojResolveAssemblyReference.cache
+D:\work\CSharp\OFFICIAL\Evervan.Utility\obj\Debug\Evervan.Utility.dll
+D:\work\CSharp\OFFICIAL\Evervan.Utility\obj\Debug\Evervan.Utility.pdb
